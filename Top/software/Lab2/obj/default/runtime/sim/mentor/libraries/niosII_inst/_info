@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/software/Lab2/obj/default/runtime/sim/mentor
+vniosII
+!s110 1644065545
+!i10b 1
+!s100 UO2zg7;8;Y<i<hOSn@]nH1
+Ib<ii_R^QThcj8:QH48TOF1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1644057732
+8D:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII.v
+FD:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII.v
+L0 6
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1644065545.000000
+!s107 D:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII.v|
+!s90 -reportprogress|300|D:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII.v|-work|niosII_inst|
+!i113 1
+o-work niosII_inst
+tCvgOpt 0
+nnios@i@i

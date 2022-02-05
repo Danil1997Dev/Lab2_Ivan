@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/software/Lab2/obj/default/runtime/sim/mentor
+vniosII_sys_clk_timer
+!s110 1644065544
+!i10b 1
+!s100 f2IAk@8@=U7C2=2Uc`a3B0
+IQ@BAWM6VS88d2AYLkbCRV1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1644057735
+8D:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_sys_clk_timer.v
+FD:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_sys_clk_timer.v
+L0 21
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1644065544.000000
+!s107 D:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_sys_clk_timer.v|
+!s90 -reportprogress|300|D:/intelFPGA/18.1/Lab2Store/Lab25/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_sys_clk_timer.v|-work|sys_clk_timer|
+!i113 1
+o-work sys_clk_timer
+tCvgOpt 0
+nnios@i@i_sys_clk_timer

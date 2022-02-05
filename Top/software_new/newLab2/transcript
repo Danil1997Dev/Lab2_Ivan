@@ -1,0 +1,8 @@
+# Reading K:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# vsim -gui null_sim.mpf 
+# Start time: 19:56:38 on Jan 09,2022
+# ** Error (suppressible): (vsim-19) Failed to access library 'null_sim' at "null_sim".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 19:56:39 on Jan 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

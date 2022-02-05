@@ -1,0 +1,2598 @@
+# Reading K:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Lab2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlib niosII
+# ** Warning: (vlib-34) Library already exists at "niosII".
+# vmap niosII niosII
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap niosII niosII 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/niosii.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:42 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/niosii.v 
+# -- Compiling module niosII
+# 
+# Top level modules:
+# 	niosII
+# End time: 22:30:43 on Dec 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:43 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 22:30:43 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:43 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 22:30:43 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:43 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 22:30:43 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:43 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu.v 
+# -- Compiling module niosII_cpu
+# 
+# Top level modules:
+# 	niosII_cpu
+# End time: 22:30:43 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:43 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu.v 
+# -- Compiling module niosII_cpu_cpu_register_bank_a_module
+# -- Compiling module niosII_cpu_cpu_register_bank_b_module
+# -- Compiling module niosII_cpu_cpu_nios2_oci_debug
+# -- Compiling module niosII_cpu_cpu_nios2_oci_break
+# -- Compiling module niosII_cpu_cpu_nios2_oci_xbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_itrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_td_mode
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dtrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo
+# -- Compiling module niosII_cpu_cpu_nios2_oci_pib
+# -- Compiling module niosII_cpu_cpu_nios2_oci_im
+# -- Compiling module niosII_cpu_cpu_nios2_performance_monitors
+# -- Compiling module niosII_cpu_cpu_nios2_avalon_reg
+# -- Compiling module niosII_cpu_cpu_ociram_sp_ram_module
+# -- Compiling module niosII_cpu_cpu_nios2_ocimem
+# -- Compiling module niosII_cpu_cpu_nios2_oci
+# -- Compiling module niosII_cpu_cpu
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_nios2_performance_monitors
+# 	niosII_cpu_cpu
+# End time: 22:30:43 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_sysclk.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:44 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_sysclk.v 
+# -- Compiling module niosII_cpu_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_debug_slave_sysclk
+# End time: 22:30:44 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_tck.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:44 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_tck.v 
+# -- Compiling module niosII_cpu_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_debug_slave_tck
+# End time: 22:30:44 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:44 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_wrapper.v 
+# -- Compiling module niosII_cpu_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_debug_slave_wrapper
+# End time: 22:30:44 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_test_bench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:44 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_test_bench.v 
+# -- Compiling module niosII_cpu_cpu_test_bench
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_test_bench
+# End time: 22:30:44 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_jtag_uart.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:44 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_jtag_uart.v 
+# -- Compiling module niosII_jtag_uart_sim_scfifo_w
+# -- Compiling module niosII_jtag_uart_scfifo_w
+# -- Compiling module niosII_jtag_uart_sim_scfifo_r
+# -- Compiling module niosII_jtag_uart_scfifo_r
+# -- Compiling module niosII_jtag_uart
+# 
+# Top level modules:
+# 	niosII_jtag_uart
+# End time: 22:30:44 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:44 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mem.v 
+# -- Compiling module niosII_mem
+# 
+# Top level modules:
+# 	niosII_mem
+# End time: 22:30:44 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:45 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0.v 
+# -- Compiling module niosII_mm_interconnect_0
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0
+# End time: 22:30:45 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:45 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter.v 
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_avalon_st_adapter
+# End time: 22:30:45 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_sys_clk_timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:45 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_sys_clk_timer.v 
+# -- Compiling module niosII_sys_clk_timer
+# 
+# Top level modules:
+# 	niosII_sys_clk_timer
+# End time: 22:30:45 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/periodram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:45 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/periodram.v 
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	periodram
+# End time: 22:30:45 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:45 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_arbitrator.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 22:30:45 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_burst_uncompressor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:45 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_burst_uncompressor.sv 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 22:30:45 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:45 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_agent.sv 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 22:30:45 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:46 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_translator.sv 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 22:30:46 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:46 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 22:30:46 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:46 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_translator.sv 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 22:30:46 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/dec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:46 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/dec.sv 
+# -- Compiling module dec
+# 
+# Top level modules:
+# 	dec
+# End time: 22:30:46 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_irq_mapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:46 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_irq_mapper.sv 
+# -- Compiling module niosII_irq_mapper
+# 
+# Top level modules:
+# 	niosII_irq_mapper
+# End time: 22:30:46 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:46 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 22:30:46 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:47 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_demux
+# End time: 22:30:47 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:47 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux_001.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_demux_001
+# End time: 22:30:47 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:47 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_mux
+# End time: 22:30:47 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:47 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux_002.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux_002
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_mux_002
+# End time: 22:30:47 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:47 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router
+# End time: 22:30:47 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:47 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_001.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_001
+# End time: 22:30:47 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:47 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_002.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_002
+# End time: 22:30:47 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_004.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:48 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_004.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_004_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_004
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_004
+# End time: 22:30:48 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_008.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:48 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_008.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_008_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_008
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_008
+# End time: 22:30:48 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:48 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_demux.sv 
+# -- Compiling module niosII_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_rsp_demux
+# End time: 22:30:48 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:48 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux.sv 
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_rsp_mux
+# End time: 22:30:48 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:48 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_rsp_mux_001
+# End time: 22:30:48 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation {C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:30:48 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation" C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v 
+# -- Compiling module niosII_tb
+# 
+# Top level modules:
+# 	niosII_tb
+# End time: 22:30:48 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L niosII -voptargs="+acc"  niosII_tb.v
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L niosII -voptargs=""+acc"" niosII_tb.v 
+# Start time: 22:30:48 on Dec 29,2021
+# ** Error (suppressible): (vsim-19) Failed to access library 'niosII_tb' at "niosII_tb".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab2_run_msim_rtl_verilog.do PAUSED at line 50
+do Lab2_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlib niosII
+# ** Warning: (vlib-34) Library already exists at "niosII".
+# vmap niosII niosII
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap niosII niosII 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/niosii.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:24 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/niosii.v 
+# -- Compiling module niosII
+# 
+# Top level modules:
+# 	niosII
+# End time: 22:31:24 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:25 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 22:31:25 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:25 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 22:31:25 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:25 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 22:31:25 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:25 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu.v 
+# -- Compiling module niosII_cpu
+# 
+# Top level modules:
+# 	niosII_cpu
+# End time: 22:31:25 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:26 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu.v 
+# -- Compiling module niosII_cpu_cpu_register_bank_a_module
+# -- Compiling module niosII_cpu_cpu_register_bank_b_module
+# -- Compiling module niosII_cpu_cpu_nios2_oci_debug
+# -- Compiling module niosII_cpu_cpu_nios2_oci_break
+# -- Compiling module niosII_cpu_cpu_nios2_oci_xbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_itrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_td_mode
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dtrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo
+# -- Compiling module niosII_cpu_cpu_nios2_oci_pib
+# -- Compiling module niosII_cpu_cpu_nios2_oci_im
+# -- Compiling module niosII_cpu_cpu_nios2_performance_monitors
+# -- Compiling module niosII_cpu_cpu_nios2_avalon_reg
+# -- Compiling module niosII_cpu_cpu_ociram_sp_ram_module
+# -- Compiling module niosII_cpu_cpu_nios2_ocimem
+# -- Compiling module niosII_cpu_cpu_nios2_oci
+# -- Compiling module niosII_cpu_cpu
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_nios2_performance_monitors
+# 	niosII_cpu_cpu
+# End time: 22:31:26 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_sysclk.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:26 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_sysclk.v 
+# -- Compiling module niosII_cpu_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_debug_slave_sysclk
+# End time: 22:31:26 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_tck.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:26 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_tck.v 
+# -- Compiling module niosII_cpu_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_debug_slave_tck
+# End time: 22:31:26 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:26 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_wrapper.v 
+# -- Compiling module niosII_cpu_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_debug_slave_wrapper
+# End time: 22:31:26 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_test_bench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:26 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_test_bench.v 
+# -- Compiling module niosII_cpu_cpu_test_bench
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_test_bench
+# End time: 22:31:26 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_jtag_uart.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:27 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_jtag_uart.v 
+# -- Compiling module niosII_jtag_uart_sim_scfifo_w
+# -- Compiling module niosII_jtag_uart_scfifo_w
+# -- Compiling module niosII_jtag_uart_sim_scfifo_r
+# -- Compiling module niosII_jtag_uart_scfifo_r
+# -- Compiling module niosII_jtag_uart
+# 
+# Top level modules:
+# 	niosII_jtag_uart
+# End time: 22:31:27 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:27 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mem.v 
+# -- Compiling module niosII_mem
+# 
+# Top level modules:
+# 	niosII_mem
+# End time: 22:31:27 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:27 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0.v 
+# -- Compiling module niosII_mm_interconnect_0
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0
+# End time: 22:31:27 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:27 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter.v 
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_avalon_st_adapter
+# End time: 22:31:27 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_sys_clk_timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:27 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_sys_clk_timer.v 
+# -- Compiling module niosII_sys_clk_timer
+# 
+# Top level modules:
+# 	niosII_sys_clk_timer
+# End time: 22:31:27 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/periodram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:27 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/periodram.v 
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	periodram
+# End time: 22:31:27 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:28 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_arbitrator.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 22:31:28 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_burst_uncompressor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:28 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_burst_uncompressor.sv 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 22:31:28 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:28 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_agent.sv 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 22:31:28 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:28 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_translator.sv 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 22:31:28 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:28 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 22:31:28 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:29 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_translator.sv 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 22:31:29 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/dec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:29 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/dec.sv 
+# -- Compiling module dec
+# 
+# Top level modules:
+# 	dec
+# End time: 22:31:29 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_irq_mapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:29 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_irq_mapper.sv 
+# -- Compiling module niosII_irq_mapper
+# 
+# Top level modules:
+# 	niosII_irq_mapper
+# End time: 22:31:29 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:29 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 22:31:29 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:30 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_demux
+# End time: 22:31:30 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:30 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux_001.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_demux_001
+# End time: 22:31:30 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:30 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_mux
+# End time: 22:31:30 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:31 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux_002.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux_002
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_mux_002
+# End time: 22:31:31 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:31 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router
+# End time: 22:31:31 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:31 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_001.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_001
+# End time: 22:31:31 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:31 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_002.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_002
+# End time: 22:31:31 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_004.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:31 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_004.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_004_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_004
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_004
+# End time: 22:31:31 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_008.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:31 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_008.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_008_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_008
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_008
+# End time: 22:31:31 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:32 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_demux.sv 
+# -- Compiling module niosII_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_rsp_demux
+# End time: 22:31:32 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:32 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux.sv 
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_rsp_mux
+# End time: 22:31:32 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:32 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_rsp_mux_001
+# End time: 22:31:32 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation {C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:32 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation" C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v 
+# -- Compiling module niosII_tb
+# 
+# Top level modules:
+# 	niosII_tb
+# End time: 22:31:32 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L niosII -voptargs="+acc"  niosII_tb 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L niosII -voptargs=""+acc"" niosII_tb 
+# Start time: 22:30:48 on Dec 29,2021
+# Loading work.niosII_tb
+# Loading niosII.niosII
+# Loading niosII.niosII_cpu
+# Loading niosII.niosII_cpu_cpu
+# Loading niosII.niosII_cpu_cpu_test_bench
+# Loading niosII.niosII_cpu_cpu_register_bank_a_module
+# Loading altera_mf_ver.altsyncram
+# Loading niosII.niosII_cpu_cpu_register_bank_b_module
+# Loading niosII.niosII_cpu_cpu_nios2_oci
+# Loading niosII.niosII_cpu_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading niosII.niosII_cpu_cpu_nios2_oci_break
+# Loading niosII.niosII_cpu_cpu_nios2_oci_xbrk
+# Loading niosII.niosII_cpu_cpu_nios2_oci_dbrk
+# Loading niosII.niosII_cpu_cpu_nios2_oci_itrace
+# Loading niosII.niosII_cpu_cpu_nios2_oci_dtrace
+# Loading niosII.niosII_cpu_cpu_nios2_oci_td_mode
+# Loading niosII.niosII_cpu_cpu_nios2_oci_fifo
+# Loading niosII.niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# Loading niosII.niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# Loading niosII.niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# Loading niosII.niosII_cpu_cpu_nios2_oci_pib
+# Loading niosII.niosII_cpu_cpu_nios2_oci_im
+# Loading niosII.niosII_cpu_cpu_nios2_avalon_reg
+# Loading niosII.niosII_cpu_cpu_nios2_ocimem
+# Loading niosII.niosII_cpu_cpu_ociram_sp_ram_module
+# Loading niosII.niosII_cpu_cpu_debug_slave_wrapper
+# Loading niosII.niosII_cpu_cpu_debug_slave_tck
+# Loading niosII.niosII_cpu_cpu_debug_slave_sysclk
+# Loading niosII.niosII_jtag_uart
+# Loading niosII.niosII_jtag_uart_scfifo_w
+# Loading niosII.niosII_jtag_uart_sim_scfifo_w
+# Loading niosII.niosII_jtag_uart_scfifo_r
+# Loading niosII.niosII_jtag_uart_sim_scfifo_r
+# Loading niosII.niosII_mem
+# Loading sv_std.std
+# Loading niosII.dec
+# Loading niosII.periodram
+# Loading niosII.niosII_sys_clk_timer
+# Loading niosII.niosII_mm_interconnect_0
+# Loading niosII.altera_merlin_master_translator
+# Loading niosII.altera_merlin_slave_translator
+# Loading niosII.altera_merlin_master_agent
+# Loading niosII.altera_merlin_slave_agent
+# Loading niosII.altera_merlin_burst_uncompressor
+# Loading niosII.altera_avalon_sc_fifo
+# Loading niosII.niosII_mm_interconnect_0_router
+# Loading niosII.niosII_mm_interconnect_0_router_default_decode
+# Loading niosII.niosII_mm_interconnect_0_router_001
+# Loading niosII.niosII_mm_interconnect_0_router_001_default_decode
+# Loading niosII.niosII_mm_interconnect_0_router_002
+# Loading niosII.niosII_mm_interconnect_0_router_002_default_decode
+# Loading niosII.niosII_mm_interconnect_0_router_004
+# Loading niosII.niosII_mm_interconnect_0_router_004_default_decode
+# Loading niosII.niosII_mm_interconnect_0_router_008
+# Loading niosII.niosII_mm_interconnect_0_router_008_default_decode
+# Loading niosII.niosII_mm_interconnect_0_cmd_demux
+# Loading niosII.niosII_mm_interconnect_0_cmd_demux_001
+# Loading niosII.niosII_mm_interconnect_0_cmd_mux
+# Loading niosII.niosII_mm_interconnect_0_cmd_mux_002
+# Loading niosII.altera_merlin_arbitrator
+# Loading niosII.altera_merlin_arb_adder
+# Loading niosII.niosII_mm_interconnect_0_rsp_demux
+# Loading niosII.niosII_mm_interconnect_0_rsp_mux
+# Loading niosII.niosII_mm_interconnect_0_rsp_mux_001
+# Loading niosII.niosII_mm_interconnect_0_avalon_st_adapter
+# Loading niosII.niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading niosII.niosII_irq_mapper
+# Loading niosII.altera_reset_controller
+# ** Error: (vsim-3033) C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v(26): Instantiation of 'altera_avalon_clock_source' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /niosII_tb File: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v
+#         Searched libraries:
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/220model
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/rtl_work
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/rtl_work
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/niosII
+# ** Error: (vsim-3033) C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v(33): Instantiation of 'altera_avalon_reset_source' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /niosII_tb File: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v
+#         Searched libraries:
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/220model
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/rtl_work
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/rtl_work
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/niosII
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab2_run_msim_rtl_verilog.do PAUSED at line 50
+do Lab2_run_msim_rtl_verilog_tb.do
+#  
+# set name niosII_tb
+# niosII_tb
+# set pass c:/users/123/downloads/lab2/lab2/top/db/ip/niosii 
+# c:/users/123/downloads/lab2/lab2/top/db/ip/niosii
+#############Create work library#############
+# vlib work
+# 
+#############Compile sources#############
+# vlog "$pass/*.v"  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:32:05 on Dec 29,2021
+# vlog -reportprogress 300 c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/niosII.v 
+# -- Compiling module niosII
+# 
+# Top level modules:
+# 	niosII
+# End time: 22:32:05 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "$pass/submodules/*.v"  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:32:05 on Dec 29,2021
+# vlog -reportprogress 300 c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_avalon_sc_fifo.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_controller.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_synchronizer.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_debug_slave_sysclk.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_debug_slave_tck.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_debug_slave_wrapper.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_test_bench.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_jtag_uart.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mem.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_avalon_st_adapter.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_sys_clk_timer.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/periodram.v 
+# -- Compiling module altera_avalon_sc_fifo
+# -- Compiling module altera_reset_controller
+# -- Compiling module altera_reset_synchronizer
+# -- Compiling module niosII_cpu
+# -- Compiling module niosII_cpu_cpu_register_bank_a_module
+# -- Compiling module niosII_cpu_cpu_register_bank_b_module
+# -- Compiling module niosII_cpu_cpu_nios2_oci_debug
+# -- Compiling module niosII_cpu_cpu_nios2_oci_break
+# -- Compiling module niosII_cpu_cpu_nios2_oci_xbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_itrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_td_mode
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dtrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo
+# -- Compiling module niosII_cpu_cpu_nios2_oci_pib
+# -- Compiling module niosII_cpu_cpu_nios2_oci_im
+# -- Compiling module niosII_cpu_cpu_nios2_performance_monitors
+# -- Compiling module niosII_cpu_cpu_nios2_avalon_reg
+# -- Compiling module niosII_cpu_cpu_ociram_sp_ram_module
+# -- Compiling module niosII_cpu_cpu_nios2_ocimem
+# -- Compiling module niosII_cpu_cpu_nios2_oci
+# -- Compiling module niosII_cpu_cpu
+# -- Compiling module niosII_cpu_cpu_debug_slave_sysclk
+# -- Compiling module niosII_cpu_cpu_debug_slave_tck
+# -- Compiling module niosII_cpu_cpu_debug_slave_wrapper
+# -- Compiling module niosII_cpu_cpu_test_bench
+# -- Compiling module niosII_jtag_uart_sim_scfifo_w
+# -- Compiling module niosII_jtag_uart_scfifo_w
+# -- Compiling module niosII_jtag_uart_sim_scfifo_r
+# -- Compiling module niosII_jtag_uart_scfifo_r
+# -- Compiling module niosII_jtag_uart
+# -- Compiling module niosII_mem
+# -- Compiling module niosII_mm_interconnect_0
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter
+# -- Compiling module niosII_sys_clk_timer
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	altera_reset_controller
+# 	niosII_cpu
+# 	niosII_cpu_cpu_nios2_performance_monitors
+# 	niosII_jtag_uart
+# 	niosII_mem
+# 	niosII_mm_interconnect_0
+# 	niosII_sys_clk_timer
+# 	periodram
+# End time: 22:32:06 on Dec 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "$pass/submodules/*.sv"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:32:06 on Dec 29,2021
+# vlog -reportprogress 300 c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_arbitrator.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_burst_uncompressor.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_agent.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_translator.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_translator.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/dec.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_irq_mapper.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_demux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_demux_001.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_mux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_mux_002.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_001.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_002.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_004.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_008.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_rsp_demux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_rsp_mux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# -- Compiling module altera_merlin_burst_uncompressor
+# -- Compiling module altera_merlin_master_agent
+# -- Compiling module altera_merlin_master_translator
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# -- Compiling module altera_merlin_slave_translator
+# -- Compiling module dec
+# -- Compiling module niosII_irq_mapper
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux_001
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux_002
+# -- Compiling module niosII_mm_interconnect_0_router_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router
+# -- Compiling module niosII_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_001
+# -- Compiling module niosII_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_002
+# -- Compiling module niosII_mm_interconnect_0_router_004_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_004
+# -- Compiling module niosII_mm_interconnect_0_router_008_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_008
+# -- Compiling module niosII_mm_interconnect_0_rsp_demux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# 	altera_merlin_master_translator
+# 	altera_merlin_slave_agent
+# 	altera_merlin_slave_translator
+# 	dec
+# 	niosII_irq_mapper
+# 	niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 	niosII_mm_interconnect_0_cmd_demux
+# 	niosII_mm_interconnect_0_cmd_demux_001
+# 	niosII_mm_interconnect_0_cmd_mux
+# 	niosII_mm_interconnect_0_cmd_mux_002
+# 	niosII_mm_interconnect_0_router
+# 	niosII_mm_interconnect_0_router_001
+# 	niosII_mm_interconnect_0_router_002
+# 	niosII_mm_interconnect_0_router_004
+# 	niosII_mm_interconnect_0_router_008
+# 	niosII_mm_interconnect_0_rsp_demux
+# 	niosII_mm_interconnect_0_rsp_mux
+# 	niosII_mm_interconnect_0_rsp_mux_001
+# End time: 22:32:06 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog "C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/*.sv" 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:32:07 on Dec 29,2021
+# vlog -reportprogress 300 C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_clock_source.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_reset_source.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_arbitrator.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_master_agent.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_master_translator.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_translator.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/dec.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_irq_mapper.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_demux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_demux_001.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_mux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_mux_002.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_001.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_002.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_004.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_008.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_rsp_demux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_rsp_mux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_rsp_mux_001.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/verbosity_pkg.sv 
+# -- Compiling module altera_avalon_clock_source
+# ** Error: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_clock_source.sv(30): (vlog-13006) Could not find the package (verbosity_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# -- Compiling module altera_avalon_reset_source
+# ** Error: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_reset_source.sv(34): (vlog-13006) Could not find the package (verbosity_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# -- Compiling module altera_merlin_burst_uncompressor
+# -- Compiling module altera_merlin_master_agent
+# -- Compiling module altera_merlin_master_translator
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# -- Compiling module altera_merlin_slave_translator
+# -- Compiling module dec
+# -- Compiling module niosII_irq_mapper
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux_001
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux_002
+# -- Compiling module niosII_mm_interconnect_0_router_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router
+# -- Compiling module niosII_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_001
+# -- Compiling module niosII_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_002
+# -- Compiling module niosII_mm_interconnect_0_router_004_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_004
+# -- Compiling module niosII_mm_interconnect_0_router_008_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_008
+# -- Compiling module niosII_mm_interconnect_0_rsp_demux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux_001
+# -- Compiling package verbosity_pkg
+# End time: 22:32:07 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 6
+# ** Error: K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./Lab2_run_msim_rtl_verilog_tb.do line 11
+# K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/*.sv" "
+do Lab2_run_msim_rtl_verilog_tb.do
+#  
+# set name niosII_tb
+# niosII_tb
+# set pass c:/users/123/downloads/lab2/lab2/top/db/ip/niosii 
+# c:/users/123/downloads/lab2/lab2/top/db/ip/niosii
+#############Create work library#############
+# vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+#############Compile sources#############
+# vlog "$pass/*.v"  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:03 on Dec 29,2021
+# vlog -reportprogress 300 c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/niosII.v 
+# -- Compiling module niosII
+# 
+# Top level modules:
+# 	niosII
+# End time: 22:35:03 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "$pass/submodules/*.v"  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:03 on Dec 29,2021
+# vlog -reportprogress 300 c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_avalon_sc_fifo.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_controller.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_synchronizer.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_debug_slave_sysclk.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_debug_slave_tck.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_debug_slave_wrapper.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_test_bench.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_jtag_uart.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mem.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_avalon_st_adapter.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_sys_clk_timer.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/periodram.v 
+# -- Compiling module altera_avalon_sc_fifo
+# -- Compiling module altera_reset_controller
+# -- Compiling module altera_reset_synchronizer
+# -- Compiling module niosII_cpu
+# -- Compiling module niosII_cpu_cpu_register_bank_a_module
+# -- Compiling module niosII_cpu_cpu_register_bank_b_module
+# -- Compiling module niosII_cpu_cpu_nios2_oci_debug
+# -- Compiling module niosII_cpu_cpu_nios2_oci_break
+# -- Compiling module niosII_cpu_cpu_nios2_oci_xbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_itrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_td_mode
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dtrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo
+# -- Compiling module niosII_cpu_cpu_nios2_oci_pib
+# -- Compiling module niosII_cpu_cpu_nios2_oci_im
+# -- Compiling module niosII_cpu_cpu_nios2_performance_monitors
+# -- Compiling module niosII_cpu_cpu_nios2_avalon_reg
+# -- Compiling module niosII_cpu_cpu_ociram_sp_ram_module
+# -- Compiling module niosII_cpu_cpu_nios2_ocimem
+# -- Compiling module niosII_cpu_cpu_nios2_oci
+# -- Compiling module niosII_cpu_cpu
+# -- Compiling module niosII_cpu_cpu_debug_slave_sysclk
+# -- Compiling module niosII_cpu_cpu_debug_slave_tck
+# -- Compiling module niosII_cpu_cpu_debug_slave_wrapper
+# -- Compiling module niosII_cpu_cpu_test_bench
+# -- Compiling module niosII_jtag_uart_sim_scfifo_w
+# -- Compiling module niosII_jtag_uart_scfifo_w
+# -- Compiling module niosII_jtag_uart_sim_scfifo_r
+# -- Compiling module niosII_jtag_uart_scfifo_r
+# -- Compiling module niosII_jtag_uart
+# -- Compiling module niosII_mem
+# -- Compiling module niosII_mm_interconnect_0
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter
+# -- Compiling module niosII_sys_clk_timer
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	altera_reset_controller
+# 	niosII_cpu
+# 	niosII_cpu_cpu_nios2_performance_monitors
+# 	niosII_jtag_uart
+# 	niosII_mem
+# 	niosII_mm_interconnect_0
+# 	niosII_sys_clk_timer
+# 	periodram
+# End time: 22:35:04 on Dec 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog "$pass/submodules/*.sv"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:04 on Dec 29,2021
+# vlog -reportprogress 300 c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_arbitrator.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_burst_uncompressor.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_agent.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_translator.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_translator.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/dec.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_irq_mapper.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_demux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_demux_001.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_mux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_mux_002.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_001.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_002.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_004.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_008.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_rsp_demux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_rsp_mux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# -- Compiling module altera_merlin_burst_uncompressor
+# -- Compiling module altera_merlin_master_agent
+# -- Compiling module altera_merlin_master_translator
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# -- Compiling module altera_merlin_slave_translator
+# -- Compiling module dec
+# -- Compiling module niosII_irq_mapper
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux_001
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux_002
+# -- Compiling module niosII_mm_interconnect_0_router_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router
+# -- Compiling module niosII_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_001
+# -- Compiling module niosII_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_002
+# -- Compiling module niosII_mm_interconnect_0_router_004_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_004
+# -- Compiling module niosII_mm_interconnect_0_router_008_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_008
+# -- Compiling module niosII_mm_interconnect_0_rsp_demux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# 	altera_merlin_master_translator
+# 	altera_merlin_slave_agent
+# 	altera_merlin_slave_translator
+# 	dec
+# 	niosII_irq_mapper
+# 	niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 	niosII_mm_interconnect_0_cmd_demux
+# 	niosII_mm_interconnect_0_cmd_demux_001
+# 	niosII_mm_interconnect_0_cmd_mux
+# 	niosII_mm_interconnect_0_cmd_mux_002
+# 	niosII_mm_interconnect_0_router
+# 	niosII_mm_interconnect_0_router_001
+# 	niosII_mm_interconnect_0_router_002
+# 	niosII_mm_interconnect_0_router_004
+# 	niosII_mm_interconnect_0_router_008
+# 	niosII_mm_interconnect_0_rsp_demux
+# 	niosII_mm_interconnect_0_rsp_mux
+# 	niosII_mm_interconnect_0_rsp_mux_001
+# End time: 22:35:04 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog "C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/*.sv" 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:05 on Dec 29,2021
+# vlog -reportprogress 300 C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_clock_source.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_reset_source.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_arbitrator.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_master_agent.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_master_translator.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_translator.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/dec.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_irq_mapper.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_demux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_demux_001.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_mux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_mux_002.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_001.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_002.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_004.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_008.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_rsp_demux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_rsp_mux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_rsp_mux_001.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/verbosity_pkg.sv 
+# -- Compiling package verbosity_pkg
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package verbosity_pkg
+# ** Warning: ** while parsing file included at C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_reset_source.sv(22)
+# ** at C:\Users\123\Downloads\Lab2\Lab2\Top\niosII\testbench\niosII_tb\simulation\submodules\verbosity_pkg.sv(61): (vlog-2275) 'verbosity_pkg' already exists and will be overwritten.
+# -- Compiling package verbosity_pkg
+# -- Compiling module altera_avalon_reset_source
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# -- Compiling module altera_merlin_burst_uncompressor
+# -- Compiling module altera_merlin_master_agent
+# -- Compiling module altera_merlin_master_translator
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# -- Compiling module altera_merlin_slave_translator
+# -- Compiling module dec
+# -- Compiling module niosII_irq_mapper
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux_001
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux_002
+# -- Compiling module niosII_mm_interconnect_0_router_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router
+# -- Compiling module niosII_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_001
+# -- Compiling module niosII_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_002
+# -- Compiling module niosII_mm_interconnect_0_router_004_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_004
+# -- Compiling module niosII_mm_interconnect_0_router_008_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_008
+# -- Compiling module niosII_mm_interconnect_0_rsp_demux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux_001
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/verbosity_pkg.sv(61): (vlog-2275) 'verbosity_pkg' already exists and will be overwritten.
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# 	altera_avalon_reset_source
+# 	altera_merlin_master_agent
+# 	altera_merlin_master_translator
+# 	altera_merlin_slave_agent
+# 	altera_merlin_slave_translator
+# 	dec
+# 	niosII_irq_mapper
+# 	niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 	niosII_mm_interconnect_0_cmd_demux
+# 	niosII_mm_interconnect_0_cmd_demux_001
+# 	niosII_mm_interconnect_0_cmd_mux
+# 	niosII_mm_interconnect_0_cmd_mux_002
+# 	niosII_mm_interconnect_0_router
+# 	niosII_mm_interconnect_0_router_001
+# 	niosII_mm_interconnect_0_router_002
+# 	niosII_mm_interconnect_0_router_004
+# 	niosII_mm_interconnect_0_router_008
+# 	niosII_mm_interconnect_0_rsp_demux
+# 	niosII_mm_interconnect_0_rsp_mux
+# 	niosII_mm_interconnect_0_rsp_mux_001
+# End time: 22:35:05 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+# vlog "K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/altera_mf.v" 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:06 on Dec 29,2021
+# vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 22:35:07 on Dec 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:08 on Dec 29,2021
+# vlog -reportprogress 300 C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v 
+# -- Compiling module niosII_tb
+# 
+# Top level modules:
+# 	niosII_tb
+# End time: 22:35:08 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#  
+# vsim -voptargs=+acc work.$name
+# vsim -voptargs="+acc" work.niosII_tb 
+# Start time: 22:30:48 on Dec 29,2021
+# Loading work.niosII_tb
+# Loading work.niosII
+# Loading work.niosII_cpu
+# Loading work.niosII_cpu_cpu
+# Loading work.niosII_cpu_cpu_test_bench
+# Loading work.niosII_cpu_cpu_register_bank_a_module
+# Loading work.altsyncram
+# Loading work.niosII_cpu_cpu_register_bank_b_module
+# Loading work.niosII_cpu_cpu_nios2_oci
+# Loading work.niosII_cpu_cpu_nios2_oci_debug
+# Loading work.altera_std_synchronizer
+# Loading work.niosII_cpu_cpu_nios2_oci_break
+# Loading work.niosII_cpu_cpu_nios2_oci_xbrk
+# Loading work.niosII_cpu_cpu_nios2_oci_dbrk
+# Loading work.niosII_cpu_cpu_nios2_oci_itrace
+# Loading work.niosII_cpu_cpu_nios2_oci_dtrace
+# Loading work.niosII_cpu_cpu_nios2_oci_td_mode
+# Loading work.niosII_cpu_cpu_nios2_oci_fifo
+# Loading work.niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# Loading work.niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# Loading work.niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# Loading work.niosII_cpu_cpu_nios2_oci_pib
+# Loading work.niosII_cpu_cpu_nios2_oci_im
+# Loading work.niosII_cpu_cpu_nios2_avalon_reg
+# Loading work.niosII_cpu_cpu_nios2_ocimem
+# Loading work.niosII_cpu_cpu_ociram_sp_ram_module
+# Loading work.niosII_cpu_cpu_debug_slave_wrapper
+# Loading work.niosII_cpu_cpu_debug_slave_tck
+# Loading work.niosII_cpu_cpu_debug_slave_sysclk
+# Loading work.niosII_jtag_uart
+# Loading work.niosII_jtag_uart_scfifo_w
+# Loading work.niosII_jtag_uart_sim_scfifo_w
+# Loading work.niosII_jtag_uart_scfifo_r
+# Loading work.niosII_jtag_uart_sim_scfifo_r
+# Loading work.niosII_mem
+# Loading sv_std.std
+# Loading work.dec
+# Loading work.periodram
+# Loading work.niosII_sys_clk_timer
+# Loading work.niosII_mm_interconnect_0
+# Loading work.altera_merlin_master_translator
+# Loading work.altera_merlin_slave_translator
+# Loading work.altera_merlin_master_agent
+# Loading work.altera_merlin_slave_agent
+# Loading work.altera_merlin_burst_uncompressor
+# Loading work.altera_avalon_sc_fifo
+# Loading work.niosII_mm_interconnect_0_router
+# Loading work.niosII_mm_interconnect_0_router_default_decode
+# Loading work.niosII_mm_interconnect_0_router_001
+# Loading work.niosII_mm_interconnect_0_router_001_default_decode
+# Loading work.niosII_mm_interconnect_0_router_002
+# Loading work.niosII_mm_interconnect_0_router_002_default_decode
+# Loading work.niosII_mm_interconnect_0_router_004
+# Loading work.niosII_mm_interconnect_0_router_004_default_decode
+# Loading work.niosII_mm_interconnect_0_router_008
+# Loading work.niosII_mm_interconnect_0_router_008_default_decode
+# Loading work.niosII_mm_interconnect_0_cmd_demux
+# Loading work.niosII_mm_interconnect_0_cmd_demux_001
+# Loading work.niosII_mm_interconnect_0_cmd_mux
+# Loading work.niosII_mm_interconnect_0_cmd_mux_002
+# Loading work.altera_merlin_arbitrator
+# Loading work.altera_merlin_arb_adder
+# Loading work.niosII_mm_interconnect_0_rsp_demux
+# Loading work.niosII_mm_interconnect_0_rsp_mux
+# Loading work.niosII_mm_interconnect_0_rsp_mux_001
+# Loading work.niosII_mm_interconnect_0_avalon_st_adapter
+# Loading work.niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading work.niosII_irq_mapper
+# Loading work.altera_reset_controller
+# ** Error: (vsim-13) Recompile work.altera_avalon_clock_source because work.verbosity_pkg has changed.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab2_run_msim_rtl_verilog_tb.do PAUSED at line 15
+do Lab2_run_msim_rtl_verilog.do
+# transcript on
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlib niosII
+# ** Warning: (vlib-34) Library already exists at "niosII".
+# vmap niosII niosII
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap niosII niosII 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/niosii.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:33 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/niosii.v 
+# -- Compiling module niosII
+# 
+# Top level modules:
+# 	niosII
+# End time: 22:42:33 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:33 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 22:42:33 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:34 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 22:42:34 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:34 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 22:42:34 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:34 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu.v 
+# -- Compiling module niosII_cpu
+# 
+# Top level modules:
+# 	niosII_cpu
+# End time: 22:42:34 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:34 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu.v 
+# -- Compiling module niosII_cpu_cpu_register_bank_a_module
+# -- Compiling module niosII_cpu_cpu_register_bank_b_module
+# -- Compiling module niosII_cpu_cpu_nios2_oci_debug
+# -- Compiling module niosII_cpu_cpu_nios2_oci_break
+# -- Compiling module niosII_cpu_cpu_nios2_oci_xbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_itrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_td_mode
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dtrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo
+# -- Compiling module niosII_cpu_cpu_nios2_oci_pib
+# -- Compiling module niosII_cpu_cpu_nios2_oci_im
+# -- Compiling module niosII_cpu_cpu_nios2_performance_monitors
+# -- Compiling module niosII_cpu_cpu_nios2_avalon_reg
+# -- Compiling module niosII_cpu_cpu_ociram_sp_ram_module
+# -- Compiling module niosII_cpu_cpu_nios2_ocimem
+# -- Compiling module niosII_cpu_cpu_nios2_oci
+# -- Compiling module niosII_cpu_cpu
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_nios2_performance_monitors
+# 	niosII_cpu_cpu
+# End time: 22:42:34 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_sysclk.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:35 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_sysclk.v 
+# -- Compiling module niosII_cpu_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_debug_slave_sysclk
+# End time: 22:42:35 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_tck.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:35 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_tck.v 
+# -- Compiling module niosII_cpu_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_debug_slave_tck
+# End time: 22:42:35 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:35 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_debug_slave_wrapper.v 
+# -- Compiling module niosII_cpu_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_debug_slave_wrapper
+# End time: 22:42:35 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_test_bench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:35 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_cpu_cpu_test_bench.v 
+# -- Compiling module niosII_cpu_cpu_test_bench
+# 
+# Top level modules:
+# 	niosII_cpu_cpu_test_bench
+# End time: 22:42:35 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_jtag_uart.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:35 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_jtag_uart.v 
+# -- Compiling module niosII_jtag_uart_sim_scfifo_w
+# -- Compiling module niosII_jtag_uart_scfifo_w
+# -- Compiling module niosII_jtag_uart_sim_scfifo_r
+# -- Compiling module niosII_jtag_uart_scfifo_r
+# -- Compiling module niosII_jtag_uart
+# 
+# Top level modules:
+# 	niosII_jtag_uart
+# End time: 22:42:35 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:36 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mem.v 
+# -- Compiling module niosII_mem
+# 
+# Top level modules:
+# 	niosII_mem
+# End time: 22:42:36 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:36 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0.v 
+# -- Compiling module niosII_mm_interconnect_0
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0
+# End time: 22:42:36 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:36 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter.v 
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_avalon_st_adapter
+# End time: 22:42:36 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_sys_clk_timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:36 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_sys_clk_timer.v 
+# -- Compiling module niosII_sys_clk_timer
+# 
+# Top level modules:
+# 	niosII_sys_clk_timer
+# End time: 22:42:36 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/periodram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:36 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/periodram.v 
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	periodram
+# End time: 22:42:36 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:36 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_arbitrator.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 22:42:36 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_burst_uncompressor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:37 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_burst_uncompressor.sv 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 22:42:37 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:37 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_agent.sv 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 22:42:37 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:37 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_translator.sv 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 22:42:37 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:37 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 22:42:37 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:37 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_translator.sv 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 22:42:37 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/dec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:37 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/dec.sv 
+# -- Compiling module dec
+# 
+# Top level modules:
+# 	dec
+# End time: 22:42:38 on Dec 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_irq_mapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:38 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_irq_mapper.sv 
+# -- Compiling module niosII_irq_mapper
+# 
+# Top level modules:
+# 	niosII_irq_mapper
+# End time: 22:42:38 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:38 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 22:42:38 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:38 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_demux
+# End time: 22:42:38 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:38 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_demux_001.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_demux_001
+# End time: 22:42:38 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:38 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_mux
+# End time: 22:42:38 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:38 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_cmd_mux_002.sv 
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux_002
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_cmd_mux_002
+# End time: 22:42:38 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:39 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router
+# End time: 22:42:39 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:39 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_001.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_001
+# End time: 22:42:39 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:39 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_002.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_002
+# End time: 22:42:39 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_004.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:39 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_004.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_004_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_004
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_004
+# End time: 22:42:39 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_008.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:39 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_router_008.sv 
+# -- Compiling module niosII_mm_interconnect_0_router_008_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_008
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_router_008
+# End time: 22:42:39 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:39 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_demux.sv 
+# -- Compiling module niosII_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_rsp_demux
+# End time: 22:42:39 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:39 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux.sv 
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_rsp_mux
+# End time: 22:42:40 on Dec 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work niosII +incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules {c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:40 on Dec 29,2021
+# vlog -reportprogress 300 -sv -work niosII "+incdir+c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules" c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosii_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	niosII_mm_interconnect_0_rsp_mux_001
+# End time: 22:42:40 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation {C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:42:40 on Dec 29,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation" C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v 
+# -- Compiling module niosII_tb
+# 
+# Top level modules:
+# 	niosII_tb
+# End time: 22:42:40 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L niosII -voptargs="+acc"  niosII_tb 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L niosII -voptargs=""+acc"" niosII_tb 
+# Start time: 22:30:48 on Dec 29,2021
+# Loading work.niosII_tb
+# Loading niosII.niosII
+# Loading niosII.niosII_cpu
+# Loading niosII.niosII_cpu_cpu
+# Loading niosII.niosII_cpu_cpu_test_bench
+# Loading niosII.niosII_cpu_cpu_register_bank_a_module
+# Loading altera_mf_ver.altsyncram
+# Loading niosII.niosII_cpu_cpu_register_bank_b_module
+# Loading niosII.niosII_cpu_cpu_nios2_oci
+# Loading niosII.niosII_cpu_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading niosII.niosII_cpu_cpu_nios2_oci_break
+# Loading niosII.niosII_cpu_cpu_nios2_oci_xbrk
+# Loading niosII.niosII_cpu_cpu_nios2_oci_dbrk
+# Loading niosII.niosII_cpu_cpu_nios2_oci_itrace
+# Loading niosII.niosII_cpu_cpu_nios2_oci_dtrace
+# Loading niosII.niosII_cpu_cpu_nios2_oci_td_mode
+# Loading niosII.niosII_cpu_cpu_nios2_oci_fifo
+# Loading niosII.niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# Loading niosII.niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# Loading niosII.niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# Loading niosII.niosII_cpu_cpu_nios2_oci_pib
+# Loading niosII.niosII_cpu_cpu_nios2_oci_im
+# Loading niosII.niosII_cpu_cpu_nios2_avalon_reg
+# Loading niosII.niosII_cpu_cpu_nios2_ocimem
+# Loading niosII.niosII_cpu_cpu_ociram_sp_ram_module
+# Loading niosII.niosII_cpu_cpu_debug_slave_wrapper
+# Loading niosII.niosII_cpu_cpu_debug_slave_tck
+# Loading niosII.niosII_cpu_cpu_debug_slave_sysclk
+# Loading niosII.niosII_jtag_uart
+# Loading niosII.niosII_jtag_uart_scfifo_w
+# Loading niosII.niosII_jtag_uart_sim_scfifo_w
+# Loading niosII.niosII_jtag_uart_scfifo_r
+# Loading niosII.niosII_jtag_uart_sim_scfifo_r
+# Loading niosII.niosII_mem
+# Loading sv_std.std
+# Loading niosII.dec
+# Loading niosII.periodram
+# Loading niosII.niosII_sys_clk_timer
+# Loading niosII.niosII_mm_interconnect_0
+# Loading niosII.altera_merlin_master_translator
+# Loading niosII.altera_merlin_slave_translator
+# Loading niosII.altera_merlin_master_agent
+# Loading niosII.altera_merlin_slave_agent
+# Loading niosII.altera_merlin_burst_uncompressor
+# Loading niosII.altera_avalon_sc_fifo
+# Loading niosII.niosII_mm_interconnect_0_router
+# Loading niosII.niosII_mm_interconnect_0_router_default_decode
+# Loading niosII.niosII_mm_interconnect_0_router_001
+# Loading niosII.niosII_mm_interconnect_0_router_001_default_decode
+# Loading niosII.niosII_mm_interconnect_0_router_002
+# Loading niosII.niosII_mm_interconnect_0_router_002_default_decode
+# Loading niosII.niosII_mm_interconnect_0_router_004
+# Loading niosII.niosII_mm_interconnect_0_router_004_default_decode
+# Loading niosII.niosII_mm_interconnect_0_router_008
+# Loading niosII.niosII_mm_interconnect_0_router_008_default_decode
+# Loading niosII.niosII_mm_interconnect_0_cmd_demux
+# Loading niosII.niosII_mm_interconnect_0_cmd_demux_001
+# Loading niosII.niosII_mm_interconnect_0_cmd_mux
+# Loading niosII.niosII_mm_interconnect_0_cmd_mux_002
+# Loading niosII.altera_merlin_arbitrator
+# Loading niosII.altera_merlin_arb_adder
+# Loading niosII.niosII_mm_interconnect_0_rsp_demux
+# Loading niosII.niosII_mm_interconnect_0_rsp_mux
+# Loading niosII.niosII_mm_interconnect_0_rsp_mux_001
+# Loading niosII.niosII_mm_interconnect_0_avalon_st_adapter
+# Loading niosII.niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading niosII.niosII_irq_mapper
+# Loading niosII.altera_reset_controller
+# ** Error: (vsim-3033) C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v(26): Instantiation of 'altera_avalon_clock_source' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /niosII_tb File: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v
+#         Searched libraries:
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/220model
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/rtl_work
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/rtl_work
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/niosII
+# ** Error: (vsim-3033) C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v(33): Instantiation of 'altera_avalon_reset_source' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /niosII_tb File: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v
+#         Searched libraries:
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/220model
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/rtl_work
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/rtl_work
+#             C:/Users/123/Downloads/Lab2/Lab2/Top/simulation/modelsim/niosII
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab2_run_msim_rtl_verilog.do PAUSED at line 50
+do Lab2_run_msim_rtl_verilog_tb.do
+#  
+# set name niosII_tb
+# niosII_tb
+# set pass c:/users/123/downloads/lab2/lab2/top/db/ip/niosii 
+# c:/users/123/downloads/lab2/lab2/top/db/ip/niosii
+#############Create work library#############
+# vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+#############Compile sources#############
+# vlog "$pass/*.v"  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:15 on Dec 29,2021
+# vlog -reportprogress 300 c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/niosII.v 
+# -- Compiling module niosII
+# 
+# Top level modules:
+# 	niosII
+# End time: 22:43:15 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "$pass/submodules/*.v"  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:15 on Dec 29,2021
+# vlog -reportprogress 300 c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_avalon_sc_fifo.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_controller.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_reset_synchronizer.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_debug_slave_sysclk.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_debug_slave_tck.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_debug_slave_wrapper.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_cpu_cpu_test_bench.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_jtag_uart.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mem.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_avalon_st_adapter.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_sys_clk_timer.v c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/periodram.v 
+# -- Compiling module altera_avalon_sc_fifo
+# -- Compiling module altera_reset_controller
+# -- Compiling module altera_reset_synchronizer
+# -- Compiling module niosII_cpu
+# -- Compiling module niosII_cpu_cpu_register_bank_a_module
+# -- Compiling module niosII_cpu_cpu_register_bank_b_module
+# -- Compiling module niosII_cpu_cpu_nios2_oci_debug
+# -- Compiling module niosII_cpu_cpu_nios2_oci_break
+# -- Compiling module niosII_cpu_cpu_nios2_oci_xbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dbrk
+# -- Compiling module niosII_cpu_cpu_nios2_oci_itrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_td_mode
+# -- Compiling module niosII_cpu_cpu_nios2_oci_dtrace
+# -- Compiling module niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module niosII_cpu_cpu_nios2_oci_fifo
+# -- Compiling module niosII_cpu_cpu_nios2_oci_pib
+# -- Compiling module niosII_cpu_cpu_nios2_oci_im
+# -- Compiling module niosII_cpu_cpu_nios2_performance_monitors
+# -- Compiling module niosII_cpu_cpu_nios2_avalon_reg
+# -- Compiling module niosII_cpu_cpu_ociram_sp_ram_module
+# -- Compiling module niosII_cpu_cpu_nios2_ocimem
+# -- Compiling module niosII_cpu_cpu_nios2_oci
+# -- Compiling module niosII_cpu_cpu
+# -- Compiling module niosII_cpu_cpu_debug_slave_sysclk
+# -- Compiling module niosII_cpu_cpu_debug_slave_tck
+# -- Compiling module niosII_cpu_cpu_debug_slave_wrapper
+# -- Compiling module niosII_cpu_cpu_test_bench
+# -- Compiling module niosII_jtag_uart_sim_scfifo_w
+# -- Compiling module niosII_jtag_uart_scfifo_w
+# -- Compiling module niosII_jtag_uart_sim_scfifo_r
+# -- Compiling module niosII_jtag_uart_scfifo_r
+# -- Compiling module niosII_jtag_uart
+# -- Compiling module niosII_mem
+# -- Compiling module niosII_mm_interconnect_0
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter
+# -- Compiling module niosII_sys_clk_timer
+# -- Compiling module periodram
+# 
+# Top level modules:
+# 	altera_reset_controller
+# 	niosII_cpu
+# 	niosII_cpu_cpu_nios2_performance_monitors
+# 	niosII_jtag_uart
+# 	niosII_mem
+# 	niosII_mm_interconnect_0
+# 	niosII_sys_clk_timer
+# 	periodram
+# End time: 22:43:15 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "$pass/submodules/*.sv"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:16 on Dec 29,2021
+# vlog -reportprogress 300 c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_arbitrator.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_burst_uncompressor.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_agent.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_master_translator.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_translator.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/dec.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_irq_mapper.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_demux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_demux_001.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_mux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_cmd_mux_002.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_001.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_002.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_004.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_router_008.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_rsp_demux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_rsp_mux.sv c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/niosII_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# -- Compiling module altera_merlin_burst_uncompressor
+# -- Compiling module altera_merlin_master_agent
+# -- Compiling module altera_merlin_master_translator
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: c:/users/123/downloads/lab2/lab2/top/db/ip/niosii/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# -- Compiling module altera_merlin_slave_translator
+# -- Compiling module dec
+# -- Compiling module niosII_irq_mapper
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux_001
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux_002
+# -- Compiling module niosII_mm_interconnect_0_router_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router
+# -- Compiling module niosII_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_001
+# -- Compiling module niosII_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_002
+# -- Compiling module niosII_mm_interconnect_0_router_004_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_004
+# -- Compiling module niosII_mm_interconnect_0_router_008_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_008
+# -- Compiling module niosII_mm_interconnect_0_rsp_demux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# 	altera_merlin_master_translator
+# 	altera_merlin_slave_agent
+# 	altera_merlin_slave_translator
+# 	dec
+# 	niosII_irq_mapper
+# 	niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 	niosII_mm_interconnect_0_cmd_demux
+# 	niosII_mm_interconnect_0_cmd_demux_001
+# 	niosII_mm_interconnect_0_cmd_mux
+# 	niosII_mm_interconnect_0_cmd_mux_002
+# 	niosII_mm_interconnect_0_router
+# 	niosII_mm_interconnect_0_router_001
+# 	niosII_mm_interconnect_0_router_002
+# 	niosII_mm_interconnect_0_router_004
+# 	niosII_mm_interconnect_0_router_008
+# 	niosII_mm_interconnect_0_rsp_demux
+# 	niosII_mm_interconnect_0_rsp_mux
+# 	niosII_mm_interconnect_0_rsp_mux_001
+# End time: 22:43:16 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog "C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/*.sv" 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:17 on Dec 29,2021
+# vlog -reportprogress 300 C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_clock_source.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_reset_source.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_arbitrator.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_master_agent.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_master_translator.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_translator.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/dec.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_irq_mapper.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_demux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_demux_001.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_mux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_cmd_mux_002.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_001.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_002.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_004.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_router_008.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_rsp_demux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_rsp_mux.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/niosII_mm_interconnect_0_rsp_mux_001.sv C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/verbosity_pkg.sv 
+# -- Compiling package verbosity_pkg
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package verbosity_pkg
+# ** Warning: ** while parsing file included at C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_avalon_reset_source.sv(22)
+# ** at C:\Users\123\Downloads\Lab2\Lab2\Top\niosII\testbench\niosII_tb\simulation\submodules\verbosity_pkg.sv(61): (vlog-2275) 'verbosity_pkg' already exists and will be overwritten.
+# -- Compiling package verbosity_pkg
+# -- Compiling module altera_avalon_reset_source
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# -- Compiling module altera_merlin_burst_uncompressor
+# -- Compiling module altera_merlin_master_agent
+# -- Compiling module altera_merlin_master_translator
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# -- Compiling module altera_merlin_slave_translator
+# -- Compiling module dec
+# -- Compiling module niosII_irq_mapper
+# -- Compiling module niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux
+# -- Compiling module niosII_mm_interconnect_0_cmd_demux_001
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux
+# -- Compiling module niosII_mm_interconnect_0_cmd_mux_002
+# -- Compiling module niosII_mm_interconnect_0_router_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router
+# -- Compiling module niosII_mm_interconnect_0_router_001_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_001
+# -- Compiling module niosII_mm_interconnect_0_router_002_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_002
+# -- Compiling module niosII_mm_interconnect_0_router_004_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_004
+# -- Compiling module niosII_mm_interconnect_0_router_008_default_decode
+# -- Compiling module niosII_mm_interconnect_0_router_008
+# -- Compiling module niosII_mm_interconnect_0_rsp_demux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux
+# -- Compiling module niosII_mm_interconnect_0_rsp_mux_001
+# ** Warning: C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/submodules/verbosity_pkg.sv(61): (vlog-2275) 'verbosity_pkg' already exists and will be overwritten.
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# 	altera_avalon_reset_source
+# 	altera_merlin_master_agent
+# 	altera_merlin_master_translator
+# 	altera_merlin_slave_agent
+# 	altera_merlin_slave_translator
+# 	dec
+# 	niosII_irq_mapper
+# 	niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 	niosII_mm_interconnect_0_cmd_demux
+# 	niosII_mm_interconnect_0_cmd_demux_001
+# 	niosII_mm_interconnect_0_cmd_mux
+# 	niosII_mm_interconnect_0_cmd_mux_002
+# 	niosII_mm_interconnect_0_router
+# 	niosII_mm_interconnect_0_router_001
+# 	niosII_mm_interconnect_0_router_002
+# 	niosII_mm_interconnect_0_router_004
+# 	niosII_mm_interconnect_0_router_008
+# 	niosII_mm_interconnect_0_rsp_demux
+# 	niosII_mm_interconnect_0_rsp_mux
+# 	niosII_mm_interconnect_0_rsp_mux_001
+# End time: 22:43:17 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+# vlog "K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/altera_mf.v" 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:17 on Dec 29,2021
+# vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/altera_mf.v 
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altera_syncram_derived
+# -- Compiling module altera_syncram_derived_forwarding_logic
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module altsyncram_body
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module alt_fault_injection
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	alt_fault_injection
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# End time: 22:43:19 on Dec 29,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:43:20 on Dec 29,2021
+# vlog -reportprogress 300 C:/Users/123/Downloads/Lab2/Lab2/Top/niosII/testbench/niosII_tb/simulation/niosII_tb.v 
+# -- Compiling module niosII_tb
+# 
+# Top level modules:
+# 	niosII_tb
+# End time: 22:43:20 on Dec 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#  
+# vsim -voptargs=+acc work.$name
+# vsim -voptargs="+acc" work.niosII_tb 
+# Start time: 22:30:48 on Dec 29,2021
+# Loading work.niosII_tb
+# Loading work.niosII
+# Loading work.niosII_cpu
+# Loading work.niosII_cpu_cpu
+# Loading work.niosII_cpu_cpu_test_bench
+# Loading work.niosII_cpu_cpu_register_bank_a_module
+# Loading work.altsyncram
+# Loading work.niosII_cpu_cpu_register_bank_b_module
+# Loading work.niosII_cpu_cpu_nios2_oci
+# Loading work.niosII_cpu_cpu_nios2_oci_debug
+# Loading work.altera_std_synchronizer
+# Loading work.niosII_cpu_cpu_nios2_oci_break
+# Loading work.niosII_cpu_cpu_nios2_oci_xbrk
+# Loading work.niosII_cpu_cpu_nios2_oci_dbrk
+# Loading work.niosII_cpu_cpu_nios2_oci_itrace
+# Loading work.niosII_cpu_cpu_nios2_oci_dtrace
+# Loading work.niosII_cpu_cpu_nios2_oci_td_mode
+# Loading work.niosII_cpu_cpu_nios2_oci_fifo
+# Loading work.niosII_cpu_cpu_nios2_oci_compute_input_tm_cnt
+# Loading work.niosII_cpu_cpu_nios2_oci_fifo_wrptr_inc
+# Loading work.niosII_cpu_cpu_nios2_oci_fifo_cnt_inc
+# Loading work.niosII_cpu_cpu_nios2_oci_pib
+# Loading work.niosII_cpu_cpu_nios2_oci_im
+# Loading work.niosII_cpu_cpu_nios2_avalon_reg
+# Loading work.niosII_cpu_cpu_nios2_ocimem
+# Loading work.niosII_cpu_cpu_ociram_sp_ram_module
+# Loading work.niosII_cpu_cpu_debug_slave_wrapper
+# Loading work.niosII_cpu_cpu_debug_slave_tck
+# Loading work.niosII_cpu_cpu_debug_slave_sysclk
+# Loading work.niosII_jtag_uart
+# Loading work.niosII_jtag_uart_scfifo_w
+# Loading work.niosII_jtag_uart_sim_scfifo_w
+# Loading work.niosII_jtag_uart_scfifo_r
+# Loading work.niosII_jtag_uart_sim_scfifo_r
+# Loading work.niosII_mem
+# Loading sv_std.std
+# Loading work.dec
+# Loading work.periodram
+# Loading work.niosII_sys_clk_timer
+# Loading work.niosII_mm_interconnect_0
+# Loading work.altera_merlin_master_translator
+# Loading work.altera_merlin_slave_translator
+# Loading work.altera_merlin_master_agent
+# Loading work.altera_merlin_slave_agent
+# Loading work.altera_merlin_burst_uncompressor
+# Loading work.altera_avalon_sc_fifo
+# Loading work.niosII_mm_interconnect_0_router
+# Loading work.niosII_mm_interconnect_0_router_default_decode
+# Loading work.niosII_mm_interconnect_0_router_001
+# Loading work.niosII_mm_interconnect_0_router_001_default_decode
+# Loading work.niosII_mm_interconnect_0_router_002
+# Loading work.niosII_mm_interconnect_0_router_002_default_decode
+# Loading work.niosII_mm_interconnect_0_router_004
+# Loading work.niosII_mm_interconnect_0_router_004_default_decode
+# Loading work.niosII_mm_interconnect_0_router_008
+# Loading work.niosII_mm_interconnect_0_router_008_default_decode
+# Loading work.niosII_mm_interconnect_0_cmd_demux
+# Loading work.niosII_mm_interconnect_0_cmd_demux_001
+# Loading work.niosII_mm_interconnect_0_cmd_mux
+# Loading work.niosII_mm_interconnect_0_cmd_mux_002
+# Loading work.altera_merlin_arbitrator
+# Loading work.altera_merlin_arb_adder
+# Loading work.niosII_mm_interconnect_0_rsp_demux
+# Loading work.niosII_mm_interconnect_0_rsp_mux
+# Loading work.niosII_mm_interconnect_0_rsp_mux_001
+# Loading work.niosII_mm_interconnect_0_avalon_st_adapter
+# Loading work.niosII_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading work.niosII_irq_mapper
+# Loading work.altera_reset_controller
+# ** Error: (vsim-13) Recompile work.altera_avalon_clock_source because work.verbosity_pkg has changed.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./Lab2_run_msim_rtl_verilog_tb.do PAUSED at line 15
+# End time: 22:52:59 on Dec 29,2021, Elapsed time: 0:22:11
+# Errors: 7, Warnings: 0
